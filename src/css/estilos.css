@@ -97,6 +97,18 @@ body {
 	color: #0e0027;
 	border-radius: 20px;
 	box-shadow: 0 6px 12px rgb(0, 0, 0, 0.2);
+	border: 2px solid transparent;
+}
+
+.container .cartas .carta:hover {
+    border-color: rgba(101, 40, 211, 0.35); 
+    box-shadow: 0 8px 32px 0 rgba(101, 40, 211, 0.18), 0 2px 8px rgba(0,0,0,0.10);
+    background: #ededed;
+    transform: translateY(-6px) scale(1.03); 
+    transition: 
+        border-color 0.3s,
+        box-shadow 0.3s,
+        transform 0.3s;
 }
 
 .container .carta img {
